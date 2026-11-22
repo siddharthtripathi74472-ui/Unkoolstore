@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import heroModel from "../hero-model.png";
 import { ArrowRight, Search, UserRound, ShoppingCart, ShoppingBag, Menu, X, Shirt, Coffee, Glasses, UploadCloud, Type, ImagePlus, Sparkles, Gem, SlidersHorizontal, Truck, Heart, RotateCcw } from "lucide-react";
 
 const catalog = [
@@ -114,7 +114,7 @@ export default function App(){
 
         <div className="hero-model">
           <div className="model-rays">╱╲</div>
-          <img src="<img src="/hero-model.png" alt="UnKool Model" />" alt="UnKool fashion model wearing a black oversized T-shirt"/>
+          <img src="<img src={heroModel}" alt="UnKool Model" />" alt="UnKool fashion model wearing a black oversized T-shirt"/>
           <div className="model-print"><Artwork text={text} image={image} font={font} ink={ink} compact/></div>
           <span className="model-doodle">✳</span>
         </div>
