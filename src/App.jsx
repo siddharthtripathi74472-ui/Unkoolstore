@@ -114,7 +114,7 @@ export default function App(){
 
         <div className="hero-model">
           <div className="model-rays">╱╲</div>
-          <img src="/images/hero-model.png" alt="UnKool fashion model wearing a black oversized T-shirt"/>
+          <img src="<img src="/hero-model.png" alt="UnKool Model" />" alt="UnKool fashion model wearing a black oversized T-shirt"/>
           <div className="model-print"><Artwork text={text} image={image} font={font} ink={ink} compact/></div>
           <span className="model-doodle">✳</span>
         </div>
