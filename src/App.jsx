@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState } from "react";
-import { ArrowRight, Search, UserRound, ShoppingCart, ShoppingBag, Menu, X, Shirt, Coffee, HatGlasses, UploadCloud, Type, ImagePlus, Sparkles, Gem, SlidersHorizontal, Truck, Heart, RotateCcw } from "lucide-react";
+import { ArrowRight, Search, UserRound, ShoppingCart, ShoppingBag, Menu, X, Shirt, Coffee, Glasses, UploadCloud, Type, ImagePlus, Sparkles, Gem, SlidersHorizontal, Truck, Heart, RotateCcw } from "lucide-react";
 
 const catalog = [
   {id:"tee",name:"T-Shirt",price:599,colors:["#171717","#f8f7f2","#ffdf00","#e94e55","#3478e8","#168a5a","#8a4dc2"]},
@@ -43,7 +43,7 @@ function ProductIcon({id,size=19}) {
   const props={size,strokeWidth:2};
   if(id==="tee") return <Shirt {...props}/>;
   if(id==="mug") return <Coffee {...props}/>;
-  if(id==="cap") return <HatGlasses {...props}/>;
+  if(id==="cap") return <Glasses {...props}/>;
   if(id==="hoodie") return <ShoppingBag {...props}/>;
   if(id==="keychain") return <Sparkles {...props}/>;
   return <ShoppingBag {...props}/>;
