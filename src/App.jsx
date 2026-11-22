@@ -1,6 +1,6 @@
 import heroModel from "../hero-model.png";
 import { ArrowRight, Search, UserRound, ShoppingCart, ShoppingBag, Menu, X, Shirt, Coffee, Glasses, UploadCloud, Type, ImagePlus, Sparkles, Gem, SlidersHorizontal, Truck, Heart, RotateCcw } from "lucide-react";
-
+import { useState } from "react";
 const catalog = [
   {id:"tee",name:"T-Shirt",price:599,colors:["#171717","#f8f7f2","#ffdf00","#e94e55","#3478e8","#168a5a","#8a4dc2"]},
   {id:"mug",name:"Mug",price:349,colors:["#f8f7f2","#171717","#ffdf00","#e94e55","#3478e8"]},
