@@ -83,7 +83,7 @@ export default function App(){
   return <div className="site">
     <div className="announcement">✦ FREE YOUR IMAGINATION <b>✦</b> MADE TO BE YOURS ✦</div>
     <header className="header">
-      <a className="brand" href="#top">   <img src={logo} alt="UNKOOL" className="brand-logo" /> </a>
+      <a className="brand" href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top">   <img src={logo} alt="UNKOOL" className="brand-logo" /> </a>
       <nav className={menu?"nav nav-open":"nav"}>
         <a className="active" href="#top" onClick={()=>setMenu(false)}>Home</a>
         <a href="#customise" onClick={()=>setMenu(false)}>Customise</a>
@@ -170,6 +170,6 @@ export default function App(){
       </section>
       <section className="how" id="how"><div><span>YOUR IDEA. OUR CREATION.</span><h2>Made by you.<br/><em>Made to be yours.</em></h2></div><a className="start-btn" href="#customise">Create Your Own <ArrowRight size={17}/></a></section>
     </main>
-    <footer><a className="brand" href="#top"><span className="brand-mark">U</span><span>UnKool</span></a><span>Personalised. Premium. UnKool.</span><small>© 2026 UnKool. Made to be yours.</small></footer>
+    <footer><a className="brand" href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><span className="brand-mark">U</span><span>UnKool</span></a><span>Personalised. Premium. UnKool.</span><small>© 2026 UnKool. Made to be yours.</small></footer>
   </div>;
 }
