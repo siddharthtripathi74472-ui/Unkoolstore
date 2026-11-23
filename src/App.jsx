@@ -1,4 +1,5 @@
 import heroModel from "../hero-model.png";
+import logo from "../unkool-logo.jpeg.jpeg";
 import { ArrowRight, Search, UserRound, ShoppingCart, ShoppingBag, Menu, X, Shirt, Coffee, Glasses, UploadCloud, Type, ImagePlus, Sparkles, Gem, SlidersHorizontal, Truck, Heart, RotateCcw } from "lucide-react";
 import { useState } from "react";
 const catalog = [
@@ -82,7 +83,7 @@ export default function App(){
   return <div className="site">
     <div className="announcement">✦ FREE YOUR IMAGINATION <b>✦</b> MADE TO BE YOURS ✦</div>
     <header className="header">
-      <a className="brand" href="#top"><span className="brand-mark">U</span><span>UnKool<sup>®</sup></span></a>
+      <a className="brand" href="#top">   <img src={logo} alt="UNKOOL" className="brand-logo" /> </a>
       <nav className={menu?"nav nav-open":"nav"}>
         <a className="active" href="#top" onClick={()=>setMenu(false)}>Home</a>
         <a href="#customise" onClick={()=>setMenu(false)}>Customise</a>
