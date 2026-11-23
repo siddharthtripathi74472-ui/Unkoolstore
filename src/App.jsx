@@ -83,7 +83,7 @@ export default function App(){
   return <div className="site">
     <div className="announcement">✦ FREE YOUR IMAGINATION <b>✦</b> MADE TO BE YOURS ✦</div>
     <header className="header">
-      <a className="brand" href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top"><img src={logo} alt="UNKOOL" className="brand-logo" /></a> href="#top">   <img src={logo} alt="UNKOOL" className="brand-logo" /> </a>
+    <a className="brand" href="#top"><img src={logo} alt="UNKOOL" style={{width:"120px",height:"55px",objectFit:"contain"}} /></a>     
       <nav className={menu?"nav nav-open":"nav"}>
         <a className="active" href="#top" onClick={()=>setMenu(false)}>Home</a>
         <a href="#customise" onClick={()=>setMenu(false)}>Customise</a>
